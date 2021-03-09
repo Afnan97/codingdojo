@@ -1,0 +1,91 @@
+PS C:\Users\Afnan\Desktop\CodingDojo\week6\testContract> truffle develop
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0x3ae2b71fe29dd845b7cb25e5d4bf7997fb63395a
+(1) 0x3e988b2f6965e497ca7842ca522a175cef518c56
+(2) 0x737eed3ed2db2c6158f3b5128afc79a936f96b11
+(3) 0x478e28d377f04dd9d398a93cb1f3864def3f4061
+(4) 0xc2ecdf537d76fa50f45d11be704a0d0c408d17f7
+(5) 0x072aabbe9ee42e03254bd2198d6fd2b268a3a900
+(6) 0x0d0b7347ce7a15e137f6441a0dc918a72c0fb617
+(7) 0x956183c25d2b25a8bb005435069fb00df21b2ad8
+(8) 0xc14ac8cb2b786bdbe020c8d08ec5301cf06690a4
+(9) 0x1c13121fb3f30418e15d14ae6411d4f8e27aaf8c
+
+Private Keys:
+(0) 84309d6cb282e9440f7e2b957432eb22027150468ae4a57576e632898ec31db1
+(1) 619fd2be1d3f4e19e405c12b88f4118241550c7f6aaaa7ca7b31f637c4b0f7a5
+(2) 3639fc2fce041378f7341862179fc61390ac5d2bcf692a891b7decbd295aa916
+(3) bc3b1f8f48a17f389403f6d819c5d0a5eacfecc85f60af1cfd5e2115ff23c0e5
+(4) 4890da0532408fb3ea7a3c1777af2ee87e12a5bae985d093d18a48373354cfd9
+(5) 3d1dd79718d1d6c3bd4d713c2e81cc3c44aa3dbebb385f60890686eb3af7b804
+(6) 63a6a73397730f3ffa79057f6ff9a16b0c1031badf0c7fab8f998f5be6506bd3
+(7) 38000c60dd660a9997f051f848d22a89662a171a8079736a87b0ed7c887d59cb
+(8) 72b3d5552f62242d3c3b88ef615503766d425175e900f32aabaf9b8139f2c903
+(9) 386cea583b32226e2e605a0f6dac46ac1974f66e26473cbee7c432c7c4f337b7
+
+Mnemonic: mobile awkward voice resource film bean siren noble dawn emerge ready patient
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+truffle(develop)> migrate
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Insurance.sol
+> Compiling .\contracts\Migrations.sol
+> Compilation warnings encountered:
+
+    /C/Users/Afnan/Desktop/CodingDojo/week6/testContract/contracts/Insurance.sol:1:1: Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.5.16;"
+
+^
+
+> Artifacts written to C:\Users\Afnan\Desktop\CodingDojo\week6\testContract\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xc40b7516752f08d6422ab6f709d66a64c6a49b679304caad689cbb7bb24de7d9
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x0fe76d87E8165465CA68018cf6BfC81Df8D06e24
+   > block number:        1
+   > block timestamp:     1615292465
+   > account:             0x3Ae2B71FE29DD845b7cb25E5D4Bf7997FB63395a
+   > balance:             99.99616138
+   > gas used:            191931 (0x2edbb)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00383862 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00383862 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00383862 ETH
+
+
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+
+truffle(develop)>
